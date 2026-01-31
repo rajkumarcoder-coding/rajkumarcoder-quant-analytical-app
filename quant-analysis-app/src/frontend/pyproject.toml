@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "quant-frontend"
+version = "0.1.0"
+package-mode = false
+description = "Streamlit dashboard for Quant Analytics Platform"
+authors = ["Rajkumar Mahato <rajkumarcoder.com@gmail.com>"]
+readme = "README.md"
+
+packages = [{ include = "streamlit_dashboard" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32"
+plotly = "^5.19"
+pandas = "^2.2"
+requests = "^2.31"
+pydantic-settings = "^2.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
