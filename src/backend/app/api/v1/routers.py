@@ -1,0 +1,24 @@
+from fastapi import APIRouter
+from app.api.v1.market_price_returns_viewer import routes as market_price_and_returns_routes
+from app.api.v1.multi_stock_comparison import routes as multi_stock_comparison_routes
+from app.api.v1.technical_indicators_and_signals import \
+    routes as technical_indicators_and_signals_routes
+from app.api.v1.indicators_ml_features import routes as indicators_ml_features_routes
+from app.api.v1.risk_and_volatility_analyzer import routes as risk_and_volatility_analyzer_routes
+from app.api.v1.portfolio_return_analyzer import routes as portfolio_return_analyzer_routes
+from app.api.v1.backtesting_engine import routes as backtesting_engine_routes
+from app.api.v1.market_regime_risk_detection import routes as market_regime_risk_detection_routes
+from app.api.v1.earnings_event_price_impact import routes as earnings_event_price_impact_routes
+from app.api.v1.price_based_sentiment import routes as price_based_sentiment_routes
+
+router = APIRouter()
+router.include_router(market_price_and_returns_routes.router)
+router.include_router(multi_stock_comparison_routes.router)
+router.include_router(technical_indicators_and_signals_routes.router)
+router.include_router(indicators_ml_features_routes.router)
+router.include_router(risk_and_volatility_analyzer_routes.router)
+router.include_router(portfolio_return_analyzer_routes.router)
+router.include_router(backtesting_engine_routes.router)
+router.include_router(market_regime_risk_detection_routes.router)
+router.include_router(earnings_event_price_impact_routes.router)
+router.include_router(price_based_sentiment_routes.router)
