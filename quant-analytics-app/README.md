@@ -176,9 +176,10 @@ A live demo of the platform is available:
 
 ## Contact & Links
 
-- **LinkedIn:** https://www.linkedin.com/in/rajkumar-mahato-57b610393/  
+- **LinkedIn:** https://www.linkedin.com/in/rajkumar-mahato-quantdev/ 
 - **Website:** https://rajkumarcoder.com 
-- **Email:** contact@rajkumarcoder.com  
+- **Primary Email:** contact@rajkumarcoder.com  
+- **Secondary Email:** rajkumar@drivencoder.com  
 
 For serious project inquiries, email is preferred.
 
