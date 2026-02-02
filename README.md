@@ -1,57 +1,63 @@
-# Quant Analytics Platform – Project Showcase
+# Quant Analytics Platform
 
 Welcome to the **Quant Analytics Platform** repository.
 
-This repository is structured as a **project showcase hub**.  
-The `main` branch acts as a **landing page**, while each major application or module is maintained in its **own dedicated branch**.
-
-This structure allows visitors, clients, and collaborators to easily explore specific applications without clutter.
+This repository contains production-ready financial analytics applications focused on market data analysis, portfolio evaluation, and quantitative research.
 
 ---
 
-## About the Platform
+## About
 
-The Quant Analytics Platform is a collection of **production-ready financial analytics applications** built using:
+The Quant Analytics Platform is built using:
 
-- Python
-- FastAPI
-- Streamlit
-- Docker
-- Redis
-- PostgreSQL
+- Python  
+- FastAPI  
+- Streamlit  
+- Docker  
+- Redis  
+- PostgreSQL  
 
-All applications are based on **OHLCV market data** and are designed for real-world trading, portfolio analysis, and fintech use cases.
-
----
-
-## Available Applications (by Branch)
-
-Each application lives in its **own Git branch**.  
-Click a branch below to view its code, documentation, and usage instructions.
+All applications are based on **OHLCV market data** and are designed for real-world use cases in trading, portfolio analysis, and fintech systems.
 
 ---
 
-### 📊 1. Quant Analytical App
-**Branch:** `quant-analytical-app`
+## Applications
 
-🔗 **View branch:**  
-https://github.com/rajkumarcoder-coding/rajkumarcoder-quant-analytical-app/tree/quant-analytical-app
+### 📊 Quant Analytics App
+
+A unified analytics platform that includes:
+
+- Market and asset analysis  
+- Portfolio performance and risk metrics  
+- Market regime detection  
+- Earnings impact analysis  
+- Backtesting and strategy evaluation  
+
+
+For application-level details, refer to the **README.md inside the specific application folder**.
 
 ---
 
-## Contact & Links
+## Websites
 
-- LinkedIn: https://www.linkedin.com/in/rajkumar-mahato-57b610393/
-- Website: https://rajkumarcoder.com  
-- Email: contact@rajkumarcoder.com  
-
-For serious project inquiries, email is preferred.
+- **Portfolio & Services:** https://rajkumarcoder.com  
+- **Product Platform:** https://drivencoder.com  
+  *Product developed by Rajkumar Mahato*
 
 ---
 
-## Final Note
+## Contact
 
-This repository is designed to showcase **real, production-grade analytics systems**, not isolated scripts or tutorials.
+- **LinkedIn:** https://www.linkedin.com/in/rajkumar-mahato-quantdev/  
+- **Primary Email:** contact@rajkumarcoder.com  
+- **Secondary Email:** rajkumar@drivencoder.com  
 
-Each branch represents a focused, deployable application built with long-term maintainability in mind.
+For serious project inquiries or collaboration, email is preferred.
 
+---
+
+## Note
+
+This repository showcases **real, production-grade analytics systems**, not tutorials or experimental scripts.
+
+---
